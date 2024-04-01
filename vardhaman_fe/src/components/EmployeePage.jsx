@@ -5,7 +5,6 @@ import EmployeeTable from "./EmployeeTable";
 function EmployeePage() {
     return (
         <>
-            <h1>Manage Emplyoyee's</h1>
             <EmployeeTable />
         </>
     );
