@@ -1,7 +1,12 @@
+import EmployeeSelector from "./EmployeeSelector";
+import EmployeeTable from "./EmployeeTable";
+
+
 function EmployeePage() {
     return (
         <>
-            <h1>Employee Page</h1>
+            <h1>Manage Emplyoyee's</h1>
+            <EmployeeTable />
         </>
     );
 }
